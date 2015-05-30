@@ -1,0 +1,22 @@
+!Pure Theme Demo
+
+This is a demo showing the Pure theme.
+
+!Floating Panels
+
+;Pure floating panels
+:Pillar descriptions will create floating panels in Pure theme
+;Several panels
+:Panels will be arranged in lines of 3, from left to right, top to bottom
+;I'm a panel
+:yeah
+;If you overflow
+:Panels will go down to the next line
+
+!News
+[[[eval=true
+ETListPlugin new
+	directory: 'news';
+	last: 3;
+	exportInto: stream
+]]]
